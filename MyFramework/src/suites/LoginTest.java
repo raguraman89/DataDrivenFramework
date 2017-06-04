@@ -19,8 +19,8 @@ public class LoginTest extends TestBase {
 	String password;
 	
 	public LoginTest(String User,String pass){
-		username=User;
-		password=pass;
+		this.username=User;
+		this.password=pass;
 	}
 	
 	@BeforeClass
